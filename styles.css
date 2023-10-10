@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: whitesmoke;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #6565FF;
+}
+
+.box-area {
+  width: 930px;
+}
+
+.left-box {
+  background-image: url(./images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg);
+  background-size: cover;
+}
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .right-box {
+    padding: 20px;
+  }
+}
